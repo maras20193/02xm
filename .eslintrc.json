@@ -1,3 +1,16 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error", { "semi": true, "singleQuote": true }],
+    "no-console": "warn",
+    "no-unused-vars": ["warn"],
+    "no-var": "error",
+    "prefer-const": "warn",
+    "space-infix-ops": "error",
+    "arrow-body-style": ["error", "as-needed"],
+    "react/jsx-key": "error",
+    "no-constant-condition": ["warn", { "checkLoops": false }],
+    "object-shorthand": ["error", "always"]
+  }
 }
