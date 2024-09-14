@@ -1,11 +1,13 @@
 {
   "extends": ["next/core-web-vitals", "plugin:prettier/recommended"],
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "tailwindcss"],
   "rules": {
     "prettier/prettier": ["error", { "semi": true, "singleQuote": true }],
+    "tailwindcss/classnames-order": "warn",
     "no-console": "warn",
     "no-unused-vars": ["warn"],
     "no-var": "error",
+    "no-undef": "error",
     "prefer-const": "warn",
     "space-infix-ops": "error",
     "arrow-body-style": ["error", "as-needed"],
