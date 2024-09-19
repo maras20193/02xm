@@ -29,4 +29,11 @@
 }
 
 @layer utilities {
+  .bg-gradient {
+    @apply bg-gradient-to-r from-accent-primary to-accent-secondary;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent-primary to-accent-secondary bg-clip-text text-transparent;
+  }
 }

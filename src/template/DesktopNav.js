@@ -4,7 +4,7 @@ import { routes } from '@/utils/routes';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export const Nav = ({ ...rest }) => (
+export const DesktopNav = ({ ...rest }) => (
   <nav
     className="container-xl hidden h-12 w-full flex-row items-center bg-layout-secondary text-text-primary"
     {...rest}
