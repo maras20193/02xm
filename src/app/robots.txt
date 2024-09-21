@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Host: https://www.02xm.digital
+Sitemap: https://www.02xm.digital/sitemap.xml
