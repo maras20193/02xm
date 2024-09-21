@@ -13,9 +13,13 @@ const chakraPetch = Chakra_Petch({
 export default function Home() {
   return (
     <main className="flex h-svh w-full flex-col overflow-hidden bg-layout-primary p-2">
-      <div className="bg-gradient relative flex h-[60%] w-full flex-col items-center justify-center gap-8 md:h-2/3">
-        <Image src={logoBlack} alt="02XM Logo" className="z-10 size-[150px]" />
-        <h1 className="z-10 border-b-2 border-solid border-text-secondary px-5 pb-4 text-3xl font-semibold uppercase text-text-secondary">
+      <div className="bg-gradient relative flex h-[60%] w-full flex-col items-center justify-center gap-8 md:h-2/3 lg:gap-12">
+        <Image
+          src={logoBlack}
+          alt="02XM Logo"
+          className="z-10 size-[150px] lg:size-[240px] 2xl:size-[300px]"
+        />
+        <h1 className="z-10 border-b-2 border-solid border-text-secondary px-5 pb-4 text-3xl font-semibold uppercase text-text-secondary lg:text-5xl">
           Coming soon
         </h1>
         <div className="absolute z-0 h-full w-full px-2 py-4">
