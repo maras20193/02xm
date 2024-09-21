@@ -4,27 +4,14 @@
 
 @layer base {
   :root {
-    --color-layout-primary: 253, 253, 253;
-    --color-layout-secondary: 246, 246, 246;
+    --color-layout-primary: 17, 17, 17;
+    --color-layout-secondary: 29, 30, 32;
 
-    --color-text-primary: 0, 0, 0;
-    --color-text-secondary: 246, 246, 246;
+    --color-text-primary: 255, 255, 255;
+    --color-text-secondary: 29, 30, 32;
 
-    --color-accent-primary: 120, 255, 214;
-    --color-accent-secondary: 0, 121, 145;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --color-layout-primary: 17, 17, 17;
-      --color-layout-secondary: 29, 30, 32;
-
-      --color-text-primary: 255, 255, 255;
-      --color-text-secondary: 29, 30, 32;
-
-      --color-accent-primary: 247, 13, 75;
-      --color-accent-secondary: 145, 8, 44;
-    }
+    --color-accent-primary: 247, 13, 75;
+    --color-accent-secondary: 145, 8, 44;
   }
 }
 

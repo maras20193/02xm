@@ -7,6 +7,7 @@ module.exports = {
     './src/template/**/*.{js,ts,jsx,tsx,mdx}',
     './src/sections/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -25,6 +26,11 @@ module.exports = {
           primary: 'rgba(var(--color-accent-primary), <alpha-value>)',
           secondary: 'rgba(var(--color-accent-secondary), <alpha-value>)',
         },
+      },
+
+      height: {
+        svh: '100svh',
+        lvh: '100lvh',
       },
     },
   },
